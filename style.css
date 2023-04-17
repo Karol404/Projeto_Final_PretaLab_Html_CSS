@@ -1,10 +1,11 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Nunito', sans-serif;
 }
 
 #menu {
-  background-color: #bf2604;
+  background-color: #e44f9c;
 }
 
 #menu ul {
@@ -23,6 +24,89 @@
   font-family: 'Inter', sans-serif; 
   font-weight: 700;
   font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#perfil {
+  text-align: center;
+}
+
+#perfil img {
+  width: 150px;
+}
+
+#perfil h1 {
+  color: #5b75f3
+}
+
+#perfil h2 {
+  color: #8093f1
+}
+
+#perfil p {
+  width: 490px;
+  margin: 0 auto;
+
+}
+
+#formacao {
+  background-color: #E5E5E5;
+  padding: 70px 0;
+}
+
+#formacao #titulo {
+  color:#ff69b4;
+  margin-left: 100px;
+  
+}
+
+#formacao .caixa {
+  margin-left: 300px;
+  margin-bottom: 70px;
+}
+
+#formacao .caixa h3 {
+  color: #e44f9c;
+
+}
+
+#formacao .caixa p {
+  width: 400px;
+}
+
+#portfolio {
+  padding: 70px 0;
+}
+
+#portfolio #titulo {
+  color:#ff69b4;
+  margin-left: 100px;
+}
+
+#portfolio .caixa {
+  margin-left: 300px;
+  margin-bottom: 70px;
+}
+
+#portfolio .caixa h3 {
+  color: #e44f9c;
+}
+
+#portfolio .caixa p {
+  width: 400px;
+}
+
+#contato {
+  background-color: #8093f1;
+  padding: 70px 0;
+}
+
+#contato div{
+  margin-left: 100px;
+}
+
+#contato div a {
   color: #ffffff;
   text-decoration: none;
 }
